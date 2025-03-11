@@ -1,0 +1,14 @@
+# Ignore the bin and obj folders
+bin/
+obj/
+
+# Ignore other common Visual Studio files
+.vs/
+.vscode/
+.idea/
+
+# Ignore user-specific files and generated files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
