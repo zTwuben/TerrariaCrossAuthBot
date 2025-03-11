@@ -76,7 +76,6 @@ namespace TerrariaCrossAuthBot
         {
             if (message.Author.IsBot) return;
 
-            Console.WriteLine($"Received message: {message.Content} from {message.Author.Username}"); // Debug log
 
             string[] parts = message.Content.Split(' ');
 
